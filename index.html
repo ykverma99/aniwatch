@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar -->
+      <nav class="nav">
+        <!-- nav left section -->
+        <ul class="nav_left">
+          <!-- nav left lists -->
+          <li class="nav_left-list list_menu">
+            <img id="menu" src="./images/menu.svg" alt="Menu" />
+          </li>
+          <li class="nav_left-list list_logo">
+            <img src="./images/logo.png" alt="Logo" />
+          </li>
+
+          <!-- nav input -->
+
+          <li class="nav_left-list left_list-input">
+            <input
+              type="text"
+              name="search anime"
+              id="searchinput"
+              placeholder="search anime..."
+            />
+            <div class="left_input-option">
+              <img
+                class="list_input-img"
+                src="./images/search.svg"
+                alt="search"
+              />
+              <p class="list_input-txt">Filter</p>
+            </div>
+          </li>
+          <li class="nav_left-list">
+            <p class="left_list-join">Join<br />now</p>
+          </li>
+
+          <!-- nav icons -->
+
+          <li class="nav_left-list left_list-icons">
+            <div class="list_icon-img">
+              <img src="./images/discord.svg" alt="discord" />
+            </div>
+            <div class="list_icon-img">
+              <img src="./images/telegram.svg" alt="telegram" />
+            </div>
+            <div class="list_icon-img">
+              <img src="./images/reddit.svg" alt="reddit" />
+            </div>
+            <div class="list_icon-img">
+              <img src="./images/twitter.svg" alt="twitter" />
+            </div>
+          </li>
+
+          <!-- nav options -->
+
+          <li class="nav_left-list left_list-options">
+            <div class="list_option">
+              <div class="option_img">
+                <img src="./images/watch.svg" class="option_img" alt="watch" />
+              </div>
+              <p class="option_text">Watch2gether</p>
+            </div>
+            <div class="list_option">
+              <div class="option_img">
+                <img
+                  src="./images/random.svg"
+                  class="option_img"
+                  alt="random"
+                />
+              </div>
+              <p class="option_text">Random</p>
+            </div>
+            <div class="list_option">
+              <div class="option_img">
+                <img
+                  src="./images/comment.svg"
+                  class="option_img"
+                  alt="comment"
+                />
+              </div>
+              <p class="option_text">Community</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav_right">
+          <li class="nav_right-list">
+            <button class="right_list-btn">Login</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- header  -->
+
+      <header class="header">
+        <div class="anime"></div>
+        <div class="header_text">
+          <h5 class="header_heading">Share AniWacth</h5>
+          <p>to your friends</p>
+        </div>
+        <div class="header_share">
+          <div class="share_text">
+            <p class="share_text1">28.4k</p>
+            <p class="share_text2">shares</p>
+          </div>
+          <div class="share_images">
+            <div class="share_telegram">
+              <img src="./images/telegram-share.svg" alt="share" />
+              <small>share</small>
+            </div>
+            <div class="share_reddit">
+              <img src="./images/reddit-share.svg" alt="share" />
+              <small>share</small>
+            </div>
+            <div class="share_facebook">
+              <img src="./images/facebook-share.svg" alt="share" />
+              <small>share</small>
+            </div>
+            <div class="share_img">
+              <img src="./images/share.svg" alt="share" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- main section -->
+
+      <main class="main">
+        <div class="box1">
+          <h3>TV series Anime</h3>
+          <div id="main_card-section" class="line1"></div>
+          <div id="main_card-lists" class="line2"></div>
+        </div>
+        <div class="box2">
+          <div class="box2_header">
+            <h3>Top 10</h3>
+            <div class="header_btns">
+              <p id="today" class="header_btn start_left-radius toggle_option">
+                Today
+              </p>
+              <p id="week" class="header_btn">Week</p>
+              <p id="month" class="header_btn end_right-radius">Month</p>
+            </div>
+          </div>
+          <div id="box2_lists" class="box2_lists"></div>
+        </div>
+      </main>
+      <aside id="aside" class="">
+        <div class="menu">
+          <div id="close_btn" class="close_btn">
+            <img src="./images//left-arrow.svg" alt="">
+            <p>Close menu</p>
+          </div>
+          <span class="community">
+            <img src="./images/comment.svg" alt="">
+            <p>Community</p>
+          </span>
+          <ul class="page_list">
+            <li class="menu_list">Home</li>
+            <li class="menu_list">Subbed Anime</li>
+            <li class="menu_list">Dubbed Anime</li>
+            <li class="menu_list">Most Popular</li>
+            <li class="menu_list">Movies</li>
+            <li class="menu_list">TV Series</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
