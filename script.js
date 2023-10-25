@@ -748,8 +748,8 @@ let aside = document.getElementById('aside')
 let closeBtn = document.getElementById('close_btn')
 
 menu.addEventListener('click',()=>{
-  aside.classList.add('aside')
+  aside.style.display = "block"
 })
 closeBtn.addEventListener("click",()=>{
-  aside.classList.remove("aside")
+  aside.style.display = "none"
 })
